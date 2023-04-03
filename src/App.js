@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
+import Topbanner from './Components/Topbanner/Topbanner';
+import Services from './Components/Services/Services';
+import Navber from './Components/Navber/Navber';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +21,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Navber></Navber>
+      <Topbanner></Topbanner>
+      <Services></Services>
+      {/* <Button variant="success">Success</Button>{' '} */}
     </div>
   );
 }

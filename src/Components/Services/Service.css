@@ -1,0 +1,36 @@
+.servicecard {
+    margin: 5px;
+    padding: 60px 30px 60px 30px;
+    height: 29rem;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.8);
+}
+
+.servicecard:hover {
+
+    box-shadow: 0 0 18px 0 rgba(0, 115, 230, 0.8);
+}
+
+.servicetitle {
+    color: rgb(0, 119, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+
+}
+
+.servicename {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.servicedesc {
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-top: 1rem;
+    font-weight: 400;
+}

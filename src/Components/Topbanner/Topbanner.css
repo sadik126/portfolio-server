@@ -1,0 +1,36 @@
+.topbanner {
+    background: url(../../Images/photo-1531297484001-80022131f5a1.avif);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topBanneroverlay {
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+
+.topcontent {
+    margin-top: 10rem;
+
+}
+
+.text-content {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 48PX;
+
+}
+
+.text-sub-content {
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 22PX;
+}
