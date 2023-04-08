@@ -1,0 +1,44 @@
+.navtitle {
+    color: aliceblue !important;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navscroll {
+    color: rgb(11, 128, 230) !important;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navback {
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: background 400ms linear;
+    -o-transition: background 400ms linear;
+    -moz-transition: background 400ms linear;
+    -webkit-transition: background 400ms linear;
+}
+
+
+.navbackscroll {
+    background: white !important;
+    transition: background 400ms linear;
+    -o-transition: background 400ms linear;
+    -moz-transition: background 400ms linear;
+    -webkit-transition: background 400ms linear;
+}
+
+.navitem {
+    color: aliceblue !important;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navitemscroll {
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}

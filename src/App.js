@@ -4,6 +4,8 @@ import { Button } from 'react-bootstrap';
 import Topbanner from './Components/Topbanner/Topbanner';
 import Services from './Components/Services/Services';
 import Navber from './Components/Navber/Navber';
+import Chart from './Components/Chart/Chart';
+import Topsection from './Components/Topsection/Topsection';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Navber></Navber>
       <Topbanner></Topbanner>
       <Services></Services>
+      <Chart></Chart>
+      <Topsection></Topsection>
       {/* <Button variant="success">Success</Button>{' '} */}
     </div>
   );
