@@ -6,6 +6,7 @@ import Services from './Components/Services/Services';
 import Navber from './Components/Navber/Navber';
 import Chart from './Components/Chart/Chart';
 import Topsection from './Components/Topsection/Topsection';
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Services></Services>
       <Chart></Chart>
       <Topsection></Topsection>
+      <Projects></Projects>
       {/* <Button variant="success">Success</Button>{' '} */}
     </div>
   );
