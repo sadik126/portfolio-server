@@ -11,7 +11,7 @@
 }
 
 .navback {
-    background: rgba(0, 0, 0, 0.1) !important;
+    background: rgba(0, 0, 0, 0.973) !important;
     transition: background 400ms linear;
     -o-transition: background 400ms linear;
     -moz-transition: background 400ms linear;
@@ -41,4 +41,21 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+
+.togglebg {
+    background-color: black !important;
+}
+
+.scrolltogglenavbg {}
+
+.togglenav {
+    color: rgb(255, 254, 254);
+
+}
+
+.scrolltogglenav {
+    color: rgb(253, 246, 246);
+    background-color: rgb(0, 0, 0);
+
 }

@@ -6,6 +6,8 @@ const Navber = () => {
     const [scroll, setScroll] = useState('navtitle')
     const [background, setBackground] = useState('navback')
     const [navitem, setNavitem] = useState('navitem')
+    const [toggle, setToggle] = useState('togglenav')
+    const [togglebg, setTogglebg] = useState('togglebg')
 
 
 
@@ -14,11 +16,15 @@ const Navber = () => {
             setScroll('navscroll')
             setBackground('navbackscroll')
             setNavitem('navitemscroll')
+            setToggle('scrolltogglenav')
+            setTogglebg('')
         }
         else if (window.scrollY < 100) {
             setScroll('navtitle')
             setBackground('navback')
             setNavitem('navitem')
+            setToggle('togglenav')
+            setToggle('togglebg')
         }
 
         // console.log('scroling')
@@ -38,8 +44,8 @@ const Navber = () => {
             <Navbar className={background} fixed='top' collapseOnSelect expand="lg" variant="dark">
                 <Container>
                     <Navbar.Brand className={scroll} href="#home">RAYHAN SADIK</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Toggle className={toggle} aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse className={togglebg} id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             {/* <Nav.Link href="#features">Features</Nav.Link>
                             <Nav.Link href="#pricing">Pricing</Nav.Link>

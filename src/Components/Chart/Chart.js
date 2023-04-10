@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis } from 'recharts';
 import './Charts.css';
 
+
 const Chart = () => {
     const data = [
         { technologies: 'Java', value: 100 },
@@ -18,7 +19,7 @@ const Chart = () => {
             <Container className='my-5'>
                 <h1 className=' servicetitle' style={{ color: "rgb(0, 119, 255)" }}>My Technologies</h1>
                 <Row>
-                    <Col style={{ width: '50%', height: '300px' }} lg={6} md={6} sm={12}>
+                    <Col className='w-lg-50 w-sm-full' style={{ height: '300px' }} lg={6} md={6} sm={12}>
                         <ResponsiveContainer>
 
                             <BarChart width={100} height={300} data={data}>

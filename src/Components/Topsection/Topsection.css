@@ -13,3 +13,18 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.7)
 }
+
+.countnumber {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+
+.counttitle {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
