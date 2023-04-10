@@ -7,7 +7,7 @@ const Projects = () => {
         <>
             <Container>
                 <h1 className='projectheadings'>Recent Projects</h1>
-                <Row>
+                <Row className='my-5'>
                     <Col lg={4} md={6} sm={12}>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
