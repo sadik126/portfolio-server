@@ -1,1 +1,20 @@
-.vediocard {}
+.vediocard {
+
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.8);
+    padding: 6rem 3rem 6rem 3rem;
+    margin: 50px auto;
+}
+
+
+.vediotitle {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 140, 255);
+}
+
+.playbtn {
+    font-size: 48px;
+    color: rgb(0, 140, 255);
+    cursor: pointer !important;
+}

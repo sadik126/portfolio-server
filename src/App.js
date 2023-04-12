@@ -7,6 +7,7 @@ import Navber from './Components/Navber/Navber';
 import Chart from './Components/Chart/Chart';
 import Topsection from './Components/Topsection/Topsection';
 import Projects from './Components/Projects/Projects';
+import Vedio from './Components/Vedio/Vedio';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Chart></Chart>
       <Topsection></Topsection>
       <Projects></Projects>
+      <Vedio></Vedio>
       {/* <Button variant="success">Success</Button>{' '} */}
     </div>
   );
